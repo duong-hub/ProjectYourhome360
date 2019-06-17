@@ -1,0 +1,1928 @@
+@charset "utf-8";
+div#_atssh {
+    display: none !important;
+}
+.at-share-btn-elements {
+    width: auto;
+    float: right;
+}
+.addthis-smartlayers.addthis-smartlayers-desktop {
+    display: none !important;
+}
+div#at-share-dock3 {
+    display: none !important;
+}
+
+div#at-share-dock2 {
+    display: none;
+}
+
+div#at-share-dock {
+    display: none;
+}
+.at-share-dock-outer.addthis-smartlayers.addthis-smartlayers-mobile {
+    display: none;
+}
+
+div#at4-share-label {
+    display: none !important;
+}
+
+div#at4-share3 {
+    display: none !important;
+}
+
+div#at4-soc3 {
+    display: none !important;
+}
+
+div#at4-thankyou {
+    display: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height:5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2a2e31; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f87248; 
+}
+.imgtieude-video img {
+    max-height: 60px;
+}
+
+.imgtieude-video {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+#khung-video .tieude-tc {
+    position: relative;
+}
+.motatt-ft {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.motatt-ft p {
+    width: 100%;
+}
+.noidung-baiviet {
+    width: 100%;
+    float: left;
+}
+
+.noidung-baiviet img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+.tab-dm {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    background: #f6f6f6;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-noidung {
+    width: 100%;
+    float: left;
+}
+
+div#map_canvas {
+    width: 100%;
+    float: left;
+}
+div#zalo-pc {
+    position: fixed;
+    bottom: 140px;
+    right: 0px;
+    z-index: 9999;
+}
+
+div#zalo-pc img {
+    width: 60px;
+}
+
+#map-ft div#map_canvas {
+    height: 200px;
+    overflow: hidden;
+}
+
+.tabcontents {
+    width: 100%;
+    float: left;
+}
+
+.tabcontent iframe , .tabcontent1 iframe {
+    width: 100%;
+	height:100%;
+}
+.tab-dm a {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'opb' !important;
+    opacity: .8;
+	float:left;
+}
+#map-ft .tab-dm {
+    padding: 5px 0;
+}
+
+#map-ft .tab-dm a {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.tab-dm .active2, .tab-dm .active22, .tab-dm a:hover  {
+    opacity: 1;
+	color:#f87248;
+    background: #fff;
+}
+@font-face {
+    font-family: 'opl';
+    src: url('https://duong-hub.github.io/ProjectYourhome360/fonts/OpenSans-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opb';
+    src: url('https://duong-hub.github.io/ProjectYourhome360/fonts/OpenSans-Semibold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'opm';
+    src: url('https://duong-hub.github.io/ProjectYourhome360/fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sab';
+    src: url('https://duong-hub.github.io/ProjectYourhome360/fonts/SairaCondensed-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sal';
+    src: url('https://duong-hub.github.io/ProjectYourhome360/fonts/SairaCondensed-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sam';
+    src: url('https://duong-hub.github.io/ProjectYourhome360/fonts/SairaCondensed-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sasb';
+    src: url('https://duong-hub.github.io/ProjectYourhome360/fonts/SairaCondensed-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+	font-family: 'opm' !important;
+	font-size:14px;
+	color:#000;
+	margin:0;
+	padding:0;
+}
+p {
+    margin: 0;
+}
+a {
+	font-family: 'opm' !important;
+	font-size:14px;
+	color:#000;
+	text-decoration:none !important;
+	cursor:pointer;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+	margin:auto;
+    overflow: hidden;
+}
+
+
+.margin {
+    width:  1200px;
+    margin:  auto;
+}
+div#menuress {
+    display: none;
+}
+#menungang {
+    width: 70%;
+    float: left;
+    height: auto;
+    padding-right: 0;
+    margin-right: 5%;
+}
+
+#margin-menu {
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+#menungang ul {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding:0;
+    margin: 0;
+}
+
+
+#menungang ul li {
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    padding-bottom: 19px;
+    padding-top: 21px;
+}
+#menungang ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'sam' !important;
+}
+#menungang ul li .cap1 {
+    position: absolute;
+    left: 0;
+    width: 255px;
+    display: none;
+    top: 60.5px;
+    z-index: 9999;
+    margin-top: 0px;
+}
+
+#menungang ul li .cap2 {
+    position: absolute;
+    left: 247px;
+    width: 255px;
+    display: none;
+    top: 0;
+    z-index: 9999;
+    margin-top: 0px;
+}
+#menungang ul li .cap3 {
+    position: absolute;
+    left: 246px;
+    width: 255px;
+    display: none;
+    top: -1px;
+    z-index: 9999;
+    margin-top: 0px;
+}
+#menungang ul li ul li {
+    background-color: rgb(63, 69, 72);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    width: 97%;
+    height: auto;
+    float: left;
+    line-height: 35px;
+    padding-left: 3%;
+    padding-right: 0px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+#menungang ul.cap1 li a {
+    text-transform: capitalize;
+    color: #fff !important;
+}
+#menungang ul li a:hover { padding-bottom:21px; color:#000;}
+#menungang ul li ul a:hover { background-repeat:repeat-x}
+#menungang ul li:hover .cap1{display:block !important}
+#menungang ul.cap1 li:hover .cap2{display:block !important}
+#menungang ul.cap2 li:hover .cap3{display:block !important}
+
+#menungang ul li a:hover .cap1{display:block}
+#menungang ul.cap1 li a:hover .cap2{display:block}
+#menungang ul.cap2 li a:hover .cap3{display:block}
+
+
+#menungang li.activ a {color:#fff;/* border-top: 2px solid; */}
+
+#menungang li.activ ul li a {
+	color:#000;}
+
+#menungang ul li:hover a {
+    color: #fff; 
+}
+
+#menungang ul li:hover ul li a {
+    color: #000; 
+}
+
+
+#menungang ul.cap1 li:hover{
+	background: #f87248;
+
+}
+
+#menungang ul.cap1 li:hover a, #menungang ul.cap1 li:hover ul li:hover a {
+	color:#fff;}
+#menungang ul.cap1 li:hover ul li a {
+	color:#000;}	
+#menungang li.activ {
+    background: #f87248;
+}
+
+#menungang ul li:hover {
+    background: #f87248;
+}
+  .bando_tc {
+    width: 100%;
+    height: 560px;
+}
+#toado-l, #toado-r {
+	text-align:center;
+	height:459px;
+	background:#f6f6f6;
+	padding:20px 10px;
+	font-family: 'opm' !important;
+	}
+#thongtin-lienhe .col-lg-4:hover {
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 10px #ddd;
+    transition: .1s;
+}
+
+div#thongtin-lienhe i {
+    font-size: 40px;
+    color: #f87248;
+}	
+	div#thongtin-lienhe {
+    background: #f6f6f6;
+    padding: 0;
+    margin: 30px 0;
+}
+#toado-c {
+	text-align:center;
+		padding:20px 10px ;
+	background:#fff;	
+
+	}
+#toado-c h4 {
+    font-family: 'opb';
+	padding-top:20px;
+}	
+#toado-l h2, #toado-r h2, #toado-c h2 {
+    text-transform: uppercase;
+    font-family: 'opb';
+    font-size: 18px;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    }
+#toado-l h3, #toado-r h3 {
+    padding-top: 30px;
+    padding-bottom:30px;
+    font-size: 18px;
+    font-family: 'opb';
+    color: #f87248;
+    margin: 0;
+}
+#toado-l p, #toado-r p {
+    text-transform: uppercase;
+}
+div#header-n {
+    width: 100%;
+    float: left;
+}
+div#logo-hd {
+    width: 20%;
+    float: left;
+    /* padding: 10px 0; */
+    margin-right: 5%;
+}
+div#logo-hd img {
+    max-height: 65px;
+    float: left;
+    /* height: 65px !important; */
+}
+div#content {
+    width: 100%;
+    float: left;
+    min-height: 500px;
+}
+div#gioithieu-n {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+div#left-gt {
+    width: 45%;
+    float: left;
+}
+
+div#right-gt {
+    width: 55%;
+    float: left;
+}
+.tieude-tc {
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+}
+.tieude-tc p {
+	background:url(https://duong-hub.github.io/ProjectYourhome360/images/line-tieude.png) no-repeat;
+	background-position: left bottom;
+	padding-bottom:10px;
+}
+.tieude-tc a {
+    font-family: 'sam' !important;
+    font-size: 35px;
+    color: #2a2e31;
+}
+
+div#text-gt {
+    text-align: justify;
+    float: left;
+    float: left;
+    width: 100%;
+}
+
+p.xemthem-tc {
+	width:100%;
+	float:left;
+    padding-top: 30px;
+}
+p.xemthem-tc a {
+	text-transform:uppercase;
+	color:#fff;
+    padding: 10px 20px 15px 20px;
+	background: url(https://duong-hub.github.io/ProjectYourhome360/images/bg-xemthem.png) no-repeat;
+	background-size:100% 100%;
+	}
+p#mota-gt {
+    padding: 10px 0;
+}
+.owl-theme .owl-controls .owl-page span {
+    display: none;
+}
+
+.owl-theme .owl-controls {
+    margin: 0;
+    height: 0;
+}	
+div#owl-dv {
+    width: 100%;
+    float: left;
+}
+
+div#dichvu-n {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.item-dv {
+    width: 94%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    margin: 3%;
+}
+
+.img-dv {
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 130px;
+}
+
+.img-dv a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.img-dv img {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+}
+
+a.anhhover-dv {
+    visibility: hidden;
+    opacity: 0;
+	transition:visibility 0s, opacity 0.3s linear;
+}
+
+a.anhchinh-dv {
+    visibility: visible;
+    opacity: 1;
+	transition:visibility 0s, opacity 0.3s linear;
+
+}
+.item-dv:hover a.anhhover-dv  {
+	visibility: visible;
+    opacity: 1;
+}
+.item-dv:hover a.anhchinh-dv  {
+	visibility: hidden;
+    opacity: 0;
+}
+.text-dv {
+    width: 100%;
+    float: left;
+    padding: 0 10px;
+}
+
+p.ten-dv {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+p.ten-dv a {
+    color: #fff;
+    font-family: 'sam' !important;
+    font-size: 20px;
+	text-transform:uppercase;
+	}
+
+p.mota-dv {
+    width: 100%;
+    float: left;
+    text-align: center;
+    height: 60px;
+    overflow: hidden;
+}
+div#duan-n {
+    width: 100%;
+    float: left;
+    /* height: auto; */
+}
+
+div#menu-da {
+    width: 20%;
+    float: left;
+    padding: 20px 0;
+    background: #f87248;
+    height: 640px;
+    overflow-y: scroll;
+}
+
+div#khungsp-da {
+    width: 80%;
+    float: left;
+    height: 640px;
+}
+
+.content-menu {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+p.li-c1 {
+	width:90%;
+
+
+
+	float:left;
+	text-align: center;
+	padding: 10px 14px 15px 14px;
+	background: url(https://duong-hub.github.io/ProjectYourhome360/images/li.png) no-repeat;
+	background-size:100% 100%;
+}
+
+p.li-c1 a {
+    font-family: 'sam' !important;
+    font-size: 20px;
+    color: #fff;
+	text-transform:uppercase;
+}
+p.li-c1 i {
+    font-size: 14px;
+    float: right;
+    position: relative;
+    top: 6px;
+}
+.danhmuc-c2 {
+    width: 100%;
+    float: left;
+    padding: 0 15%;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+	transition:visibility 0s, opacity 0.3s linear;
+}
+.dmc2show {
+	visibility: visible;
+    opacity: 1;
+    height: auto;}
+
+
+p.li-c2 {
+    width: 100%;
+    float: left;
+	padding: 8px 10px 11px 10px;
+}
+
+p.li-c2 a {
+    color: #fff;
+
+}
+
+p.li-c2:hover {
+	background: url(https://duong-hub.github.io/ProjectYourhome360/images/bgli2.png) no-repeat;
+	background-size:100% 100%;
+}
+p.li-c2:hover a {
+	color: #000;
+}
+
+p.li-c2 i {
+    font-size: 5px;
+    position: relative;
+    top: 8px;
+    padding-right: 5px;
+}
+.khungowl-sp {
+    width: 100%;
+    float: left;
+}
+
+.item-da {
+    width: 33.333%;
+    float: left;
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+}
+
+.item-da img {
+    width: 100%;
+	height:100%;
+}
+
+.text-da {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    text-align: justify;
+	overflow:hidden;
+}
+
+p.ten-da {
+    width: 100%;
+    float: left;
+    padding-bottom: 5px;
+}
+
+p.ten-da a {
+    font-family: 'sam' !important;
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p.tendm-da {
+    width: 100%;
+    float: left;
+	background:url(https://duong-hub.github.io/ProjectYourhome360/images/line-duan.png) no-repeat;
+	background-position: left bottom;
+	padding-bottom:5px;
+}
+
+p.tendm-da a {
+    color: #fff;
+    font-family: 'sam' !important;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#duan-n .owl-prev {
+    top: 45%;
+    left: 0;
+}
+
+#duan-n .owl-next {
+    top: 45%;
+    right: 0;
+}
+.content-menu .ajax-active {
+	background:url(https://duong-hub.github.io/ProjectYourhome360/images/bg-li.png) no-repeat !important;
+	background-size:100% 100% !important;
+	}
+.content-menu .ajax-active:hover a {
+	color: #fff;
+	}	
+.content-menu i {
+    width: 10%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+}
+.noibat-video {
+    width: 100%;
+    float: left;
+}
+
+.video-tc {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.video-tc img {
+    display: block;
+    margin: auto;
+    width: 97%;
+}
+
+img.button-video {
+    position: absolute;
+    z-index: 99;
+    top: 45%;
+    left: 45%;
+    width: auto !important;
+}
+
+.listkhac-video {
+    width: 100%;
+    float: left;
+}
+iframe#iframe-video {
+    display: none;
+}
+
+
+.owl-item .video-tc {
+    width: 94%;
+    margin: 2%;
+}
+.owl-prev,  .owl-next {
+	top:45% !important;}
+.owl-prev {
+	background-position:left top !important;}
+.owl-next {
+	background-position:right top !important;}		
+
+#tintuc-n .owl-prev, div#owl-bvlq .owl-prev, div#slidegt-dt .owl-prev  {
+	background: url(https://duong-hub.github.io/ProjectYourhome360/images/icon/prev.png) no-repeat;
+	left:-10px;
+}
+
+#tintuc-n .owl-next, div#owl-bvlq .owl-next, div#slidegt-dt .owl-next   {
+	background: url(https://duong-hub.github.io/ProjectYourhome360/images/next.png) no-repeat;
+	right:-10px;
+}
+.owl-item img.button-video {
+    width: 40% !important;
+    top: 30%;
+    left: 30%;
+}
+
+
+
+div#tintuc-n {
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+div#khung-tt {
+    width: 66.6%;
+    float: left;
+}
+
+div#khung-video {
+    width: 33.3%;
+    float: left;
+}
+
+div#left-tt {
+    width: 45%;
+    float: left;
+    margin-right: 1%;
+}
+
+div#right-tt {
+    width: 52%;
+    float: left;
+    margin: 0 1%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.item-ttl {
+    width: 100%;
+    float: left;
+    position: relative;
+}	
+.img-ttl {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-ttl img {
+    width: 100%;
+}
+
+p.ten-ttl {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 40px 10px 10px;
+    background: -moz-linear-gradient(top, transparent 0%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+	text-align:justify;
+}
+p.ngaythang-ttl {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    color: #fff;
+    background: url(https://duong-hub.github.io/ProjectYourhome360/images/ngaythang-tt.png) no-repeat;
+    background-size:100% 100%;
+    padding: 8px 10px 20px 10px;
+    font-family: 'sam';
+    font-size: 18px;
+    }	
+p.ten-ttl a {
+    color: #fff;
+    font-family: 'opb' !important;
+    font-size: 15px;
+}
+
+.text-ttl {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    text-align: justify;
+}
+
+p.mota-ttl {
+    width: 100%;
+    float: left;
+}
+
+.img-tt {
+    width: 30%;
+    float: left;
+}
+
+.item-tt {
+    width: 98%;
+    float: left;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+
+.img-tt img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text-tt {
+    width: 65%;
+    float: left;
+    text-align: left;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+p.ten-tt {
+    width: 100%;
+    float: left;
+}
+
+p.ten-tt a {
+    font-family: 'opb' !important;
+    font-size: 14.5px;
+}
+
+p.ngaythang-tt {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    color: #999;
+}
+
+p.mota-tt {
+    width: 100%;
+    float: left;
+    font-size: 13.5px;
+}
+
+p.mota-tt a {
+    color: #ff0000;
+    font-size: 13.5px;
+}
+div#footer-n {
+    width: 100%;
+    float: left;
+}
+
+div#dknt-bottom {
+    width: 100%;
+    float: left;
+}
+
+div#footer-top {
+    width: 100%;
+    float: left;
+}
+
+div#map-ft {
+    width: 30%;
+    float: left;
+}
+
+#map-ft .bando_tc {
+    height: 169px;
+}
+
+div#formemail-ft {
+    width: 70%;
+    float: left;
+    height: 200px;
+	padding:50px 0;
+}
+p.tieude-formdk {
+    font-family: 'sasb';
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+	color:#fff;
+	text-align:center;
+	width:100%;
+	float:left;
+}
+div#formemail-ft form {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin: 0 20%;
+}
+
+div#formemail-ft input {width: 39%;float: left;/* margin: 0 .5%; */height: 45px;border: none;background: url(https://duong-hub.github.io/ProjectYourhome360/images/input.png) no-repeat;background-size:100% 100%;padding-left:20px;}
+
+div#formemail-ft button {
+	background:url(https://duong-hub.github.io/ProjectYourhome360/images/button.png) no-repeat;
+	background-size:100% 100%;
+	border:none;
+	text-transform: uppercase;
+	color: #fff;
+	width: 20%;
+	float: left;
+	height: 45px;
+	padding-bottom: 5px;
+}
+		
+.item-ttft {
+    float: left;
+    padding: 20px 5px;
+    color: #fff;
+    font-family: 'opb';
+    width: 100%;
+}
+
+.img-ttft {
+    width: 20%;
+    float: left;
+    padding-right: 2%;
+}
+.img-ttft {
+	display:block;
+	margin:auto;
+	max-width:100%;
+}
+
+.text-ttft {
+    width: 78%;
+    float: left;
+}
+
+p.ten-ttft {
+    font-family: 'opm';
+}
+div#footer-bottom {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+div#mxh-ft {
+    width: 25%;
+    float: left;
+}
+
+div#copyright-ft {
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+div#vietit-ft {
+    width: 25%;
+    float: left;
+    text-align: right;
+}
+
+div#copyright-ft span {
+    color: #f77248;
+    text-transform: uppercase;
+}
+
+div#mxh-ft img {
+    padding-right: 5px;
+}
+
+.title_cate {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+.nav-bredcrum {
+    width: 100%;
+    float: left;
+}
+
+.nav-bredcrum a {
+    color: #f87248;
+}
+
+.nav-bredcrum span {
+    color: #999;
+}
+.content-trangcon {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+	padding-bottom:50px;
+}
+.content-trangcon .tieude-tc {
+    text-align: center;
+}
+
+.content-trangcon .tieude-tc p {
+    background-position: bottom center;
+}
+div#owl-bv {
+    width: 100%;
+    float: left;
+}
+
+div#owl-bv .item-ttl {
+    width: 23%;
+    float: left;
+    margin: 1%;
+}
+div#owl-bv .text-ttl {
+    padding: 10px 0;
+    text-align: justify;
+}
+div#owl-bv p.mota-ttl {
+    font-size: 13.5px;
+    padding: 0 5px;
+}
+div#owl-bv .xemthem-tc {
+    padding-top: 20px;
+}
+div#owl-bvlq {
+    width: 100%;
+    float: left;
+}
+
+div#owl-bvlq .item-ttl {
+    width: 90%;
+    margin: 5%;
+}
+
+div#owl-bv .item-dv {
+    background: #363b3d;
+    width: 24%;
+    float: left;
+    margin: .5%;
+    padding: 20px 0;
+}
+div#owl-bvlq .item-dv {
+    background: #363b3d;
+    width: 96%;
+    float: left;
+    margin: 2%;
+    padding: 20px 0;
+}
+
+div#owl-bvlq .item-da {
+    width: 96%;
+    margin: 2%;
+	height:auto;
+}
+div#left-trangcon {
+    width: 70%;
+    float: left;
+}
+
+div#right-trangcon {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+}
+div#owl-bv .item-da {
+    height: auto;
+}
+.splienquan {
+    width: 100%;
+    float: left;
+}
+
+.khungspcungthuonghieu {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.tieudethuonghieu {
+    text-align: center;
+    padding: 10px 0;
+    background: #f87248;
+}
+
+.noidungthuonghieu {
+    width: 100%;
+    float: left;
+	margin-top: 20px;
+}
+.tieudethuonghieu a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'sasb' !important;
+    font-size: 20px;
+}
+
+.khungspcungthuonghieu .item-tt {
+    padding-bottom: 3%;
+    border-bottom: 1px dashed #eee;
+}
+.khungspcungthuonghieu p.ten-tt a {
+    font-size: 14px;
+}
+
+.khungspcungthuonghieu .text-tt {
+    margin-left: 3%;
+    width: 67%;
+}
+.chitiet-bv {
+    width: 100%;
+    float: left;
+}
+
+p.left-ctbv {
+    width: auto;
+    float: left;
+    color: #666;
+}
+
+p.left-ctbv img {
+    width: 20px;
+}
+
+p.left-ctbv a {
+    font-family: 'opb' !important;
+}
+.lienhe-baiviet {
+    width: 100%;
+    float: left;
+    padding: 40px;
+    background: #eee;
+    position: relative;
+}
+
+.lienhe-baiviet i {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    font-size: 25px;
+    color: #999;
+}
+
+p.tieude-lienhebv {
+    width: 100%;
+    float: left;
+    font-family: 'sasb';
+    font-size: 27px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.tag-baiviet {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+	padding-left:45px;
+	position:relative;
+	text-align:justify;
+	font-size:13px;
+}
+.tag-baiviet a {
+	font-size:13px;
+}
+
+.tag-baiviet i {
+    color: #f87248;
+    font-size: 25px;
+	position: absolute;
+    top: 25px;
+    left: 10px;
+    font-size: 25px;
+}
+.form-binhluanbv {
+    width: 100%;
+    float: left;
+}
+
+p.tieude-formbl {
+    width: 100%;
+    float: left;
+    font-family: 'sasb';
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #f87248;
+}
+
+p.mota-formbl {
+    width: 100%;
+    float: left;
+    font-family: 'opb';
+    padding-top: 10px;
+	text-align:justify;
+}
+
+.form-binhluanbv form {
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+}
+
+div#logo-hd img:hover, .item-da:hover img, div#mxh-ft img:hover, .item-ttl:hover img {
+	transform:scale(1.1);
+	transition:.3s;
+	}
+.img-ttl:hover p.ten-ttl {
+    background: -moz-linear-gradient(top, transparent 0%, rgba(0,0,0,0.95) 100%);
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.95) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.95) 100%);
+}	
+ .img-tt img:hover {
+	border: 2px solid #f87248;
+	transition:.3s;
+	}	
+.tieude-tc a:hover {
+	color:#23527c;
+	transition:.2s;
+	}
+.item-dv:hover p.ten-dv a, p.ten-ttl a:hover {
+	color:#f87248;
+	}
+p.ten-da a:hover {
+	color:#f87248;;
+	transition:.2s;
+	}
+p.tendm-da a:hover {
+	font-size:18px;
+	}
+p.xemthem-tc a:hover, p.mota-tt a:hover, div#formemail-ft button:hover {
+	font-weight:bold;
+	}		 
+.item-ttl:hover {
+    box-shadow: 2px 3px 15px #eee;
+}
+div#nutleft-bv {
+    position: fixed;
+    left: 0;
+    top: 40%;
+    text-align: left;
+    z-index: 9;
+	padding:20px;
+}
+
+div#nutright-bv {
+    position: fixed;
+    right: 0;
+    top: 40%;
+    text-align: right;
+	z-index: 9;
+	padding:20px;
+}
+img#img-buttonl {
+    float: left;
+    padding-top: 60px;
+}
+
+div#nutleft-bv .item-da {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+	visibility: hidden;
+    opacity: 0;
+	transition:visibility 0s, opacity 0.3s linear;
+	
+}
+
+img#img-buttonr {
+    float: right;
+    padding-top: 60px;
+}
+
+div#nutright-bv .item-da {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+	visibility: hidden;
+    opacity: 0;
+	transition:visibility 0s, opacity 0.3s linear;
+}
+div#nutright-bv p.ten-da a, div#nutleft-bv p.ten-da a, div#nutright-bv p.tendm-da a, div#nutleft-bv p.tendm-da a
+ {
+	font-size:16px;}
+	
+
+div#nutright-bv:hover .item-da, div#nutleft-bv:hover .item-da {
+	visibility: visible;
+    opacity: 1;
+	}
+div#nutright-bv:hover, div#nutleft-bv:hover {
+    box-shadow: 2px 3px 15px #999;
+	background:#fff;
+
+	}
+div#hotline-pc {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 999;
+}
+div#slidegt-pc {
+    width: 100%;
+    float: left;
+}
+
+div#slidegt-dt {
+    width: 100%;
+    float: left;
+	display:none !important;
+}
+
+.item-anhgt {
+    width: 100%;
+    float: left;
+}
+
+.item-anhgt img {
+    display: block;
+    margin: auto;
+    max-height: 300px;
+    max-width: 100%;
+	    box-shadow: 2px 2px 5px #999;
+		    border: 2px solid #fff;
+
+
+}	
+
+.noibat-video iframe {
+    margin: auto;
+    width: 97%;
+    height: 300px;
+}
+.item-da:hover .text-da {
+	height:auto;
+	background: linear-gradient(to top, transparent 0%, rgba(0,0,0,0.8) 100%);
+	}
+	
+@media (min-width: 1px) and (max-width: 1199px){
+	
+	div#zalo-pc { right:0; bottom:200px;}
+	.nivo-caption {
+    max-width: 90%;
+    height: auto !important;
+}
+
+.nivo-caption .mota-slide {
+    display: none;
+}
+	.nivoSlider img {
+    height: 556px !important;
+    width: 1366px !important;
+}
+	p.ten-tt a {
+    font-size: 14px;
+}
+
+p.ngaythang-tt {
+    font-size: 11.5px;
+}
+
+p.mota-tt {
+    font-size: 13px;
+}
+
+p.mota-tt a {
+    font-size: 13px;
+}
+	div#slidegt-pc {
+		display:none;
+}
+
+div#slidegt-dt {
+	display:block !important;
+}
+
+	div#menuress {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+	background:#2d3134;
+}
+
+.menu1_dacuon {
+    display: none !important;
+}
+
+.margin {
+    width: 95%;
+}
+
+div#menungang {
+    display: none;
+}
+
+div#logo-hd {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+div#logo-hd img {
+    float: unset;
+}
+div#top1 {
+    width: 40px !important;
+    height: 40px !important;
+    right: 2.5% !important;
+}
+
+.ctrlq.fb-button {
+    right: 2.5% !important;
+    bottom: 140px !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+div#hotline-pc img {
+    width: 50px !important;
+}
+
+div#gioithieu-n {
+    padding: 30px 0;
+}
+
+div#dichvu-n {
+    padding: 30px 0;
+}
+
+div#tintuc-n, .content-trangcon {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.tieude-tc a {
+    font-size: 30px;
+}
+
+p.tieude-formdk {
+    font-size: 20px;
+}
+
+}
+
+@media (min-width: 1px) and (max-width: 500px){
+		#map-ft div#map_canvas {
+    height: auto;
+}
+	.item-ttft {
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: block;
+    padding: 15px 0;
+}
+
+.img-ttft {
+    width: 100%;
+    padding: 0;
+}
+
+.text-ttft {
+    width: 100%;
+}
+
+div#mxh-ft {
+    width: 100%;
+    text-align: center;
+}
+
+div#copyright-ft {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+div#vietit-ft {
+    width: 100%;
+    text-align: center;
+}
+
+div#footer-bottom {
+    padding: 20px 0;
+}
+	div#left-gt {
+    width: 100%;
+}
+
+div#right-gt {
+    width: 100%;
+	padding-top:20px;
+}
+div#menu-da {
+    height: 300px;
+    width: 100%;
+    padding: 2% 10%;
+}
+
+p.li-c1 a {
+    font-size: 18px;
+}
+
+p.ten-dv a {
+    font-size: 18px;
+}
+
+.content-menu {
+    margin-bottom: 5px;
+}
+
+div#khungsp-da {
+    width: 100%;
+    height: auto;
+}
+
+.item-da {
+    height: auto;
+    width: 100%;
+}
+.item-da img {
+    height: auto;
+}
+div#khung-tt {
+    width: 100%;
+}
+
+div#left-tt {
+    width: 100%;
+    margin: 0;
+}
+
+div#right-tt {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+
+div#khung-video {
+    width: 100%;
+}
+.noibat-video img.button-video {
+    width: 20% !important;
+    left: 40%;
+}
+
+.owl-item img.button-video {
+    width: 30% !important;
+    top: 35%;
+    left: 35%;
+}
+div#map-ft {
+    width: 100%;
+}
+
+div#formemail-ft {
+    width: 100%;
+    padding: 30px 0;
+    height: auto;
+}
+
+div#formemail-ft input {
+    width: 100%;
+}
+
+div#formemail-ft button {
+    width: 50%;
+    margin-left: 25%;
+}
+
+div#formemail-ft form {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.content-trangcon .col-lg-6.col-md-6.col-sm-6 {
+    padding: 0;
+}
+#toado-l, #toado-r {
+    height: auto;
+}
+
+#toado-c {
+    height: auto;
+}
+
+#toado-l h2, #toado-r h2 {
+    margin: 0;
+}
+div#owl-bv .item-ttl {
+    width: 98%;
+    margin-bottom: 20px;
+}
+div#owl-bvlq .item-ttl {
+    width: 90%;
+    margin: 5%;
+}
+
+.content-trangcon .tieude-tc a {
+    font-size: 28px;
+}
+div#owl-bv .item-dv {
+    width: 98%;
+    margin: 1%;
+    margin-bottom: 10px;
+}
+div#right-trangcon {
+    display: none;
+}
+
+div#nutright-bv, div#nutleft-bv {
+    display: none;
+}
+div#left-trangcon {
+    width: 100%;
+}
+
+p.left-ctbv {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#tintuc-n .owl-prev, div#owl-bvlq .owl-prev, div#slidegt-dt .owl-prev, div#dichvu-n .owl-prev  {
+	left:0px;
+}
+
+#tintuc-n .owl-next, div#owl-bvlq .owl-next, div#slidegt-dt .owl-next, div#dichvu-n .owl-next   {
+	right:0px;
+
+}
+
+}
+
+@media (min-width: 501px) and (max-width: 999px){
+	.imgtieude-video {
+    bottom: 30px;
+    max-width: 65%;
+}
+.imgtieude-video img {
+    max-width: 100%;
+    max-height: 60px;
+}
+
+		#map-ft div#map_canvas {
+    height: auto;
+}
+	.item-ttft {
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: block;
+    padding: 15px 0;
+}
+
+.img-ttft {
+    width: 100%;
+    padding: 0;
+}
+
+.text-ttft {
+    width: 100%;
+}
+
+div#mxh-ft {
+    width: 100%;
+    text-align: center;
+}
+
+div#copyright-ft {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+div#vietit-ft {
+    width: 100%;
+    text-align: center;
+}
+
+div#footer-bottom {
+    padding: 20px 0;
+}
+
+div#left-gt {
+    width: 100%;
+}
+
+div#right-gt {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text-dv {
+    padding: 0;
+}
+div#menu-da {
+    width: 35%;
+    height: 660px;
+}
+
+div#khungsp-da {
+    width: 65%;
+    height: auto;
+}
+
+.item-da {
+    width: 50%;
+    height: 220px;
+}
+.text-ttl {
+    padding: 10px 0;
+}
+
+div#map-ft {
+    width: 100%;
+}
+
+div#formemail-ft {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+div#owl-bv .item-ttl {
+    width: 31.3%;
+	margin-bottom:20px;
+}
+div#owl-bvlq .item-ttl {
+	width:90%;
+	margin:5%;
+	}
+div#right-trangcon {
+    display: none;
+}
+
+div#nutright-bv, div#nutleft-bv {
+    display: none;
+}
+div#left-trangcon {
+    width: 100%;
+}	
+div#owl-bv .item-dv {
+    width: 32.3%;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1199px){
+	.item-ttft {
+    width: 25%;
+    float: left;
+}
+
+.img-ttft {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.text-ttft {
+    width: 100%;
+    text-align: center;
+}
+
+div#vietit-ft {
+    width: 20%;
+}
+
+div#mxh-ft {
+    width: 30%;
+}
+
+div#left-gt {
+    width: 42%;
+    margin-right: 3%;
+}
+div#right-gt {
+    padding-top: 100px;
+}
+.text-dv {
+    padding: 0;
+}
+div#menu-da {
+    height: 500px;
+}
+
+div#khungsp-da {
+    height: 500px;
+}
+
+.item-da {
+    height: 250px;
+}
+div#formemail-ft form {
+    width: 80%;
+    margin: 0 10%;
+}
+div#map-ft {
+    width: 40%;
+}
+
+div#formemail-ft {
+	width:60%;
+	}
+div#nutright-bv, div#nutleft-bv  {
+    padding: 10px;
+}	
+}
